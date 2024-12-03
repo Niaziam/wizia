@@ -21,8 +21,8 @@ const Features = () => {
 	]
 
   return (
-	<section className='p-28'>
-		<div className='grid grid-cols-3 gap-32'>
+	<section className='px-7 py-14 md:p-16 lg:p-28'>
+		<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
 			{
 				cardItems.map(item => (
 					<div key={item} className='col-span-1 space-y-5'>

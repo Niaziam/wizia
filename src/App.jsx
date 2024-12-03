@@ -1,4 +1,5 @@
 import './App.css'
+import FeatureHighlight from './components/FeatureHighlight'
 import Features from './components/Features'
 import FirstSection from './components/FirstSection'
 import Header from './components/Header'
@@ -13,6 +14,7 @@ function App() {
       <FirstSection />
       <Partners />
       <Features />
+      <FeatureHighlight />
     </div>
   )
 }
