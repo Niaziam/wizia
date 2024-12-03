@@ -9,7 +9,7 @@ import Partners from './components/Partners'
 function App() {
   
   return (
-    <div className='font-Montserrat bg-primary'>
+    <div className='font-Montserrat bg-primary overflow-x-hidden'>
       <Header />
       <FirstSection />
       <Partners />
