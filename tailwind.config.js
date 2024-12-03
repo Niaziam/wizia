@@ -14,9 +14,9 @@ export default {
         Montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        primary: '#0a192f',
-        secondary: '#64ffda',
-        accent: '#f2f2f2',
+        primary: '#002228',
+        secondary: '#0ff1f6',
+        text: '#dfe4e4',
         hover: '#4d4d4d',
         dark: '#1f2937',
         light: '#e5e7eb',

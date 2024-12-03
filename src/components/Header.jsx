@@ -1,8 +1,8 @@
-import React, { useState } from 'react';  // Import useState
+import React, { useState } from 'react';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
 
 const Header = () => {
-	const [isMenuOpen, setIsMenuOpen] = useState(false);  // Add useState for isMenuOpen
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuItems = [
 		'About Us',
@@ -21,7 +21,7 @@ const Header = () => {
 	];
 
 	return (
-		<Navbar onMenuOpenChange={setIsMenuOpen} className='bg-primary border-b-[1px] border-white' maxWidth='xl'>
+		<Navbar onMenuOpenChange={setIsMenuOpen} className='bg-primary border-b-[1px] border-[#ffffff43]' maxWidth='xl'>
 			<NavbarContent>
 				<NavbarBrand>
 					<img src="Logo.png" alt="" />
@@ -31,7 +31,7 @@ const Header = () => {
 			<NavbarContent className="hidden sm:flex gap-10" justify="center">
 				{navItems.map(item => (
 					<NavbarItem key={item}>
-						<Link className="text-white" href="#">
+						<Link className="text-text" href="#">
 							{item}
 						</Link>
 					</NavbarItem>
@@ -42,17 +42,17 @@ const Header = () => {
 				<Button radius='full' color="secondary" className='hidden lg:flex text-black font-semibold'>
 					Book a Demo
 				</Button>
-				<Button radius='full' color="white" className='hidden lg:flex text-white font-semibold' variant="bordered">
+				<Button radius='full' color="white" className='hidden lg:flex text-text font-semibold' variant="bordered">
 					Contact us
 				</Button>
 			</NavbarContent>
 
-			<NavbarMenu>
+			<NavbarMenu className="fixed inset-0 backdrop-blur-md mt-16 bg-[#00000073]">
 				{menuItems.map((item, index) => (
 					<NavbarMenuItem key={`${item}-${index}`}>
 						<Link
 							color="primary"
-							className="w-full"
+							className="w-full text-text"
 							href="#"
 							size="lg"
 						>
@@ -61,6 +61,7 @@ const Header = () => {
 					</NavbarMenuItem>
 				))}
 			</NavbarMenu>
+
 
 			<NavbarMenuToggle
 				aria-label={isMenuOpen ? "Close menu" : "Open menu"}
