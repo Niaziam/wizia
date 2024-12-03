@@ -9,7 +9,19 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+        primary: '#0a192f',
+        secondary: '#64ffda',
+        accent: '#f2f2f2',
+        hover: '#4d4d4d',
+        dark: '#1f2937',
+        light: '#e5e7eb',
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
