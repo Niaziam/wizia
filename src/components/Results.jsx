@@ -20,7 +20,7 @@ const Results = () => {
 
 	return (
 		<section className='px-10'>
-			<div className="bg-[url('./ImgV.png')] md:bg-[url('./BG.png')] bg-no-repeat bg-cover rounded-2xl p-5 md:p-20 space-y-20">
+			<div className="bg-[url('ImgV.png')] md:bg-[url('BG.png')] bg-no-repeat bg-cover rounded-2xl p-5 md:p-20 space-y-20">
 				<div className='space-y-4'>
 					<h1 className='text-white font-semibold text-3xl'>Allocate effort where your reps make an inpact.</h1>
 					<p className='text-secondary font-semibold text-3xl'><i>Let us handle the rest.</i></p>
