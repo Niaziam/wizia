@@ -3,6 +3,7 @@ import FeatureHighlight from './components/FeatureHighlight'
 import Features from './components/Features'
 import FirstSection from './components/FirstSection'
 import Header from './components/Header'
+import LastSection from './components/LastSection'
 import Partners from './components/Partners'
 import Results from './components/Results'
 import Testimonial from './components/Testimonial'
@@ -19,6 +20,7 @@ function App() {
       <FeatureHighlight />
       <Testimonial />
       <Results />
+      <LastSection />
     </div>
   )
 }
