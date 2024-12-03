@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         primary: '#002228',
+        primary_box: '#07292f',
         secondary: '#0ff1f6',
         text: '#dfe4e4',
         hover: '#4d4d4d',

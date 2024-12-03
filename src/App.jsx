@@ -1,6 +1,7 @@
 import './App.css'
 import FirstSection from './components/FirstSection'
 import Header from './components/Header'
+import Partners from './components/Partners'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className='font-Montserrat bg-primary'>
       <Header />
       <FirstSection />
+      <Partners />
     </div>
   )
 }
