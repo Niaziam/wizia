@@ -4,6 +4,7 @@ import Features from './components/Features'
 import FirstSection from './components/FirstSection'
 import Header from './components/Header'
 import Partners from './components/Partners'
+import Testimonial from './components/Testimonial'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Partners />
       <Features />
       <FeatureHighlight />
+      <Testimonial />
     </div>
   )
 }
