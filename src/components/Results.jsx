@@ -26,12 +26,12 @@ const Results = () => {
 					<p className='text-secondary font-semibold text-3xl'><i>Let us handle the rest.</i></p>
 					<p className='text-text text-lg'>Keep your reps “in the air” -- out in the field and on the phone <br className='hidden lg:flex' /> where they can build relationships.</p>
 				</div>
-				<div className='flex items-center justify-start gap-20'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[700px] gap-10'>
 					{
 						result.map(item => (
-							<div key={item} className='w-[150px]'>
-								<p className='text-secondary font-bold text-3xl mb-3'>{item.mark}</p>	
-								<p className='text-white'>{item.comment}</p>	
+							<div key={item} className='w-[150px] col-span-1'>
+								<p className='text-secondary font-bold text-3xl mb-3'>{item.mark}</p>
+								<p className='text-white'>{item.comment}</p>
 							</div>
 						))
 					}
