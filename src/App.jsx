@@ -11,7 +11,7 @@ import Testimonial from './components/Testimonial'
 
 
 function App() {
-  
+
   return (
     <div className='font-Montserrat bg-primary overflow-x-hidden'>
       <Header />
