@@ -13,7 +13,7 @@ const Testimonial = () => {
 		{
 			Name: 'Jane Smith',
 			intro: 'Marketing Manager @ Agency',
-			
+
 			comment:
 				'Proin non nisi nec nisi vulputate viverra. Phasellus in bibendum felis. Suspendisse vel tempus ligula.',
 		},
@@ -45,7 +45,7 @@ const Testimonial = () => {
 			prevIndex === 0 ? items.length - 1 : prevIndex - 1
 		)
 	}
-  
+
 	const handleNext = () => {
 		setIndex((prevIndex) =>
 			prevIndex === items.length - 1 ? 0 : prevIndex + 1
